@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="resultHead" id="iN0-l3-epB" customClass="resultHead">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HIU-LK-Z8S">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="34"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="nBf-mc-G63">
+                            <rect key="frame" x="1" y="8" width="373" height="19"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0J-qR-FKO">
+                                    <rect key="frame" x="0.0" y="0.0" width="65.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total: 250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfy-Ci-x2R">
+                                    <rect key="frame" x="122.5" y="0.0" width="74.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Res: PROMOTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGo-Qf-FNc">
+                                    <rect key="frame" x="254" y="0.0" width="119" height="19"/>
+                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="19" id="BuY-wY-fA5"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="nBf-mc-G63" firstAttribute="leading" secondItem="HIU-LK-Z8S" secondAttribute="leading" constant="1" id="Ap3-Ed-lrf"/>
+                        <constraint firstAttribute="trailing" secondItem="nBf-mc-G63" secondAttribute="trailing" constant="1" id="iX7-qj-A4F"/>
+                        <constraint firstAttribute="height" constant="34" id="wNc-FS-DEB"/>
+                        <constraint firstItem="nBf-mc-G63" firstAttribute="top" secondItem="HIU-LK-Z8S" secondAttribute="top" constant="8" id="wyN-AA-xgL"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="CNl-Pb-eZe">
+                    <rect key="frame" x="1" y="37" width="373" height="19"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Subject    " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urf-aH-i7c">
+                            <rect key="frame" x="0.0" y="0.0" width="99.5" height="19"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.24119878019999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T/P " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGb-SF-l50">
+                            <rect key="frame" x="147.5" y="0.0" width="37" height="19"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.24119878019999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFY-xn-dLJ">
+                            <rect key="frame" x="233" y="0.0" width="51" height="19"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.24119878019999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Res  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czD-Ep-CEv">
+                            <rect key="frame" x="332" y="0.0" width="41" height="19"/>
+                            <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.24119878019999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="aWR-KE-lxD"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ab2-jS-k3Q">
+                    <rect key="frame" x="1" y="60" width="373" height="1"/>
+                    <color key="backgroundColor" red="0.0" green="0.24119878019999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="0ae-wk-30H"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.88435496794871793" green="0.88435496794871793" blue="0.88435496794871793" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ab2-jS-k3Q" secondAttribute="trailing" constant="1" id="088-V8-FSp"/>
+                <constraint firstAttribute="bottom" secondItem="CNl-Pb-eZe" secondAttribute="bottom" constant="5" id="4bN-pl-SM8"/>
+                <constraint firstAttribute="bottom" secondItem="Ab2-jS-k3Q" secondAttribute="bottom" id="5xb-39-msQ"/>
+                <constraint firstItem="HIU-LK-Z8S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6U1-7w-08Z"/>
+                <constraint firstItem="Ab2-jS-k3Q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="1" id="B8z-6h-wS3"/>
+                <constraint firstAttribute="trailing" secondItem="CNl-Pb-eZe" secondAttribute="trailing" constant="1" id="GSZ-Ov-82k"/>
+                <constraint firstItem="HIU-LK-Z8S" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SQA-6U-THB"/>
+                <constraint firstItem="CNl-Pb-eZe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="1" id="Wz7-ju-w6g"/>
+                <constraint firstAttribute="trailing" secondItem="HIU-LK-Z8S" secondAttribute="trailing" id="qIn-bi-s8S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="Tota" destination="lfy-Ci-x2R" id="RHc-Hb-6gw"/>
+                <outlet property="result" destination="MGo-Qf-FNc" id="mEz-q5-aea"/>
+                <outlet property="year" destination="B0J-qR-FKO" id="w81-Bg-BzO"/>
+            </connections>
+            <point key="canvasLocation" x="27" y="-180"/>
+        </view>
+    </objects>
+</document>
